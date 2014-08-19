@@ -9,10 +9,10 @@ Plugin'. Their official home is [this repo][].
 Samples
 -------
 
-1. Fix spelling error
+1. [Fix spelling error](./spelling-error/)
 2. Move em
-3. Extract Variable
-4. Markdown underline
+3. [Extract Variable](./extract-variable/)
+4. [Markdown underline](./markdown-underline/)
 
 The Simple Path to Your First Plugin
 ------------------------------------
