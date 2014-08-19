@@ -1,24 +1,25 @@
 Your First Vim Plugin
 =====================
 
+These are the notes and samples from my August 2014 Vim talk, 'Your First Vim
+Plugin'. Their official home is [this repo][].
+
+[this repo]: https://github.com/christoomey/your-first-vim-plugin
+
+Samples
+-------
+
 1. Fix spelling error
 2. Move em
 3. Extract Variable
 4. Markdown underline
 
-MAKE THE EXTRACT VARIABLE PLUGIN!!!!
-
-ALSO REF prose functions (RichTextCopy, FixLastSpellingError, etc)
-
-http://refactoring.com/catalog/extractVariable.html
-
-thanks pat
-
-
-The steps in plugin writing
+The Simple Path to Your First Plugin
+------------------------------------
 
 0. Know how to edit, save, and source your vimrc
-1. Write a function
+1. Capture normal mode actions, repeat with `:normal`
+2. Wrap `:normal` call in a named function
   1a. Poke around in the REPL / command line
   1b. Add ehcom debug statements, use `:messages` to review
   1c. Temporarily export to global var
@@ -27,14 +28,9 @@ The steps in plugin writing
   - create a command
   - package it up!
 
-Of note
-
-Build up open in chrome from 0
-
-Review my other plugins for samples of what you can do
 
 - Operators (titlecase, sort-motion, system-copy)
-- system integration (tmux runner & nav)
+- system integration (tmux runner & tmux nav)
 - raw efficiency (spec-runner, rfactory, conflicted, ctrlp-markdown-headers)
 
 ### The iterations
@@ -52,6 +48,7 @@ extract functions and generalize
 - ':h functions'
 - system()
 - `echom` and `:messages` for debugging
-- learn-vimsript-the-hard-way
+- [learn-vimsript-the-hard-way][]
 
 [TDD Vimscript]: http://robots.thoughtbot.com/write-a-vim-plugin-with-tdd
+[learn-vimsript-the-hard-way]: http://learnvimscriptthehardway.stevelosh.com/
