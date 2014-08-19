@@ -28,18 +28,36 @@ The Simple Path to Your First Plugin
   - create a command
   - package it up!
 
+What Can You do with Vim Plugins?
+---------------------------------
 
-- Operators (titlecase, sort-motion, system-copy)
-- system integration (tmux runner & tmux nav)
-- raw efficiency (spec-runner, rfactory, conflicted, ctrlp-markdown-headers)
+### Operators
 
-### The iterations
+- [titlecase][] - Titlecase based on a motion
+- [sort-motion][] - Sort lines or arguments, based on a vim motion
 
-markdown headers
+[titlecase]: https://github.com/christoomey/vim-titlecase
+[sort-motion]: https://github.com/christoomey/vim-sort-motion
 
-macro record
-function w/ normal!
-extract functions and generalize
+### System Integration
+
+- [tmux nav][] - Navigate seamlessly between vim and tmux splits
+- [tmux runner][] - Send commands from Vim to adjacent tmux panes
+
+[tmux runner]: https://github.com/christoomey/vim-tmux-runner
+[tmux nav]: https://github.com/christoomey/vim-tmux-navigator
+
+### Raw Efficiency
+
+- [spec-runner][] - Efficient spec running from withing vim
+- [rfactory][] - Rails.vim inspired navigation commands for FactoryGirl
+- [conflicted][] - Powerful git merge/rebase conflict resolution
+- [quicklink][] - Insert links
+
+[spec-runner]: https://github.com/gabebw/vim-spec-runner
+[rfactory]: https://github.com/christoomey/vim-rfactory
+[conflicted]: https://github.com/christoomey/vim-conflicted
+[quicklink]: https://github.com/christoomey/vim-quicklink
 
 ### Pro Tips
 
