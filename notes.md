@@ -1,7 +1,14 @@
 Your First Vim Plugin
 =====================
 
+1. Fix spelling error
+2. Move em
+3. Extract Variable
+4. Markdown underline
+
 MAKE THE EXTRACT VARIABLE PLUGIN!!!!
+
+ALSO REF prose functions (RichTextCopy, FixLastSpellingError, etc)
 
 http://refactoring.com/catalog/extractVariable.html
 
@@ -16,16 +23,11 @@ The steps in plugin writing
   1b. Add ehcom debug statements, use `:messages` to review
   1c. Temporarily export to global var
 2. Wrap it up
-   - script local your function
-   - create a command
-   - package it up!
+  - script local your function
+  - create a command
+  - package it up!
 
 Of note
-
-':h functions'
-system()
-learn-vimsript
-
 
 Build up open in chrome from 0
 
@@ -42,3 +44,14 @@ markdown headers
 macro record
 function w/ normal!
 extract functions and generalize
+
+### Pro Tips
+
+- Symlink in your local copies
+- [TDD Vimscript][]
+- ':h functions'
+- system()
+- `echom` and `:messages` for debugging
+- learn-vimsript-the-hard-way
+
+[TDD Vimscript]: http://robots.thoughtbot.com/write-a-vim-plugin-with-tdd
