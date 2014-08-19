@@ -31,6 +31,16 @@ The Simple Path to Your First Plugin
 What Can You do with Vim Plugins?
 ---------------------------------
 
+### Custom Text Objects
+
+Not mine, but still great!
+
+- [text-obj-indent][] - Indenation text object
+- [ruby-block][] - Ruby method, class, and block text objects
+
+[text-obj-indent]: https://github.com/kana/vim-textobj-indent
+[ruby-block]: https://github.com/nelstrom/vim-textobj-rubyblock
+
 ### Operators
 
 - [titlecase][] - Titlecase based on a motion
