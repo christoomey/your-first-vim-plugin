@@ -9,10 +9,10 @@ Plugin'. Their official home is [this repo][].
 Samples
 -------
 
-1. [Move Item To List Top](./move-em/)
 2. [Fix spelling error](./spelling-error/)
-3. [Extract Variable](./extract-variable/)
+1. [Move Item To List Top](./move-em/)
 4. [Markdown underline](./markdown-underline/)
+3. [Extract Variable](./extract-variable/)
 
 The Simple Path to Your First Plugin
 ------------------------------------
