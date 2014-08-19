@@ -4,4 +4,4 @@ Title Goes Here
 Sub Heading
 -----------
 
-This is some text with a spelling error
+This is some text with a spelilng error
