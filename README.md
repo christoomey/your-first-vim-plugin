@@ -2,9 +2,11 @@ Your First Vim Plugin
 =====================
 
 These are the notes and samples from my August 2014 Vim talk, 'Your First Vim
-Plugin'. Their official home is [this repo][].
+Plugin'. Their official home is [this repo][]. You can also view a [recording
+of the talk][].
 
 [this repo]: https://github.com/christoomey/your-first-vim-plugin
+[recording of the talk]: https://www.youtube.com/watch?v=lwD8G1P52Sk
 
 Samples
 -------
